@@ -1,0 +1,15 @@
+% Name: Joshua Muthenya Wambua.
+% Reg No: EG209/109705/22
+
+
+
+
+
+J=0.01;
+K=0.01;
+b=0.1;
+R=1;
+L=0.5;
+s=tf('s');
+P_motor=K/((J*s+b)*(L*s+R)+K^2);
+zpk(P_motor);

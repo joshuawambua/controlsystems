@@ -1,3 +1,5 @@
+
+%Author Joshua Muthenya Wambua.
 %example2compensator
 % Define the plant transfer function
 G = tf([1], [1 2 10]);  % Example: G(s) = 1 / (s^2 + 2s + 10)
